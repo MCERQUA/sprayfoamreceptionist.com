@@ -160,25 +160,32 @@ export default function HomePage() {
 
       {/* Signs section — inverted band */}
       <section className="bg-charcoal">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <h2 className="font-head text-2xl sm:text-3xl font-bold text-white mb-6">
-            Signs You&apos;re Losing More Than You Realize
-          </h2>
-          <p className="text-paper/80 leading-relaxed mb-4">
-            Most contractors underestimate how often calls actually go unanswered, because a
-            missed call doesn&apos;t leave much of a trace. If your voicemail box regularly has
-            messages you don&apos;t get to until the end of the day, that&apos;s calls sitting
-            cold for hours during exactly the window when a caller is deciding who to hire. If
-            callback numbers never pick up when you eventually return the call, that&apos;s very
-            likely a lead who already booked someone else.
-          </p>
-          <p className="text-paper/80 leading-relaxed">
-            It&apos;s also worth being honest about seasonality. The exact weeks when call volume
-            spikes are usually the same weeks your crew is most stretched thin and least able to
-            answer the phone — peak demand colliding with peak unavailability. A call-handling gap
-            that&apos;s a minor inconvenience in a slow month can be a real drag on revenue during
-            your busiest one.
-          </p>
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 grid lg:grid-cols-5 gap-10 items-center">
+          <div className="lg:col-span-3">
+            <h2 className="font-head text-2xl sm:text-3xl font-bold text-white mb-6">
+              Signs You&apos;re Losing More Than You Realize
+            </h2>
+            <p className="text-paper/80 leading-relaxed mb-4">
+              Most contractors underestimate how often calls actually go unanswered, because a
+              missed call doesn&apos;t leave much of a trace. If your voicemail box regularly has
+              messages you don&apos;t get to until the end of the day, that&apos;s calls sitting
+              cold for hours during exactly the window when a caller is deciding who to hire. If
+              callback numbers never pick up when you eventually return the call, that&apos;s very
+              likely a lead who already booked someone else.
+            </p>
+            <p className="text-paper/80 leading-relaxed">
+              It&apos;s also worth being honest about seasonality. The exact weeks when call
+              volume spikes are usually the same weeks your crew is most stretched thin and least
+              able to answer the phone — peak demand colliding with peak unavailability. A
+              call-handling gap that&apos;s a minor inconvenience in a slow month can be a real
+              drag on revenue during your busiest one.
+            </p>
+          </div>
+          <div className="lg:col-span-2">
+            <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
+              <Image src="/images/missed-call-truck.jpg" alt="A phone ringing unanswered on a work truck dashboard" fill className="object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 
