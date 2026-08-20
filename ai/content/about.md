@@ -24,6 +24,10 @@ Every guide on this site is written to be genuinely useful on its own, whether o
 
 If you've read through the guides and still aren't sure what fits your specific situation, or you just want a second opinion before committing to a provider, we offer a free, no-obligation call coverage assessment. It's a real conversation — not a sales call for a product we sell — about your actual call volume, where the gaps are, and what kind of solution (if any) makes sense for your business right now.
 
+## Who This Site Is Written For
+
+We're writing primarily for owner-operators and small crew leads — the person who's both running the business and, on a lot of days, still on the tools. That's a deliberate choice. A lot of business-operations content assumes an office manager or a dedicated sales team exists to handle this kind of decision, and for most spray foam contractors, that's simply not the reality. Everything here is written to be useful to someone reading it on a phone between jobs, not someone with an afternoon free to research vendors.
+
 ## Get in Touch
 
 Have a question, or ready to talk through your situation? [Get Your Free Call Coverage Assessment](/get-assessment/), call 844-967-5247, or email josh@contractorschoiceagency.com.
