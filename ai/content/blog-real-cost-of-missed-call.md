@@ -28,6 +28,10 @@ It's worth being precise about what we mean by cost. We're not talking about a o
 
 It's also worth being honest that overcorrecting has a cost too. Paying for expensive, comprehensive call coverage you don't actually need — full 24/7 live-agent coverage for a business with genuinely low call volume, for instance — is its own kind of waste. The goal isn't to spend the maximum possible amount on call coverage; it's to accurately size the actual problem and match the solution to it. See [Answering Service vs. AI vs. Voicemail](/answering-service-vs-ai-vs-voicemail/) for how to think about matching the right level of coverage to your actual situation, rather than either ignoring the problem or over-solving it.
 
+## How This Compares to Other Business Costs You Already Accept
+
+Most contractors already accept plenty of costs aimed at winning jobs without a second thought — fuel to drive to estimates that don't convert, time spent on quotes that go with someone else, marketing spend that doesn't produce a one-to-one return on every dollar. A missed-call gap is really the same category of cost, just less visible, because there's no invoice or receipt attached to it the way there is for gas or an ad spend. Once you start thinking about it in the same category as those already-accepted costs of doing business, it becomes easier to evaluate honestly instead of either dismissing it or overreacting to it.
+
 ## Making the Cost Visible
 
 The single most useful thing you can do is make this cost visible to yourself, even roughly. Track a representative week or two of actual call volume against actual booked jobs, note how many voicemails sit unheard for hours, and be honest about how often you or your crew notice a call come in that nobody could answer. Once the cost is visible instead of theoretical, deciding whether to address it becomes a much easier, much more concrete decision.

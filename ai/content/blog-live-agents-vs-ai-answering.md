@@ -32,6 +32,10 @@ Plenty of businesses don't pick strictly one or the other — a common pattern i
 
 As a rough pattern (not a fixed rule — always confirm with actual providers), live-agent services tend to cost more per call or per minute than AI voice-answering platforms, since AI's marginal cost per additional call is lower once the system is set up. See our [cost breakdown](/blog/how-much-does-answering-service-cost/) for more on how both categories typically price.
 
+## What Caller Expectations Look Like Today
+
+It's worth noting that caller comfort with AI-handled calls has shifted substantially in recent years — a well-designed AI voice interaction today often doesn't read as obviously robotic the way earlier automated systems did, and many callers are now reasonably accustomed to interacting with AI in customer service contexts generally. That said, some callers still specifically prefer or expect a human, particularly for a higher-stakes, higher-cost decision like hiring a contractor for a real home improvement project. Neither preference is wrong, and it's worth thinking about which one is more likely to describe your specific customer base before assuming one option is obviously the better fit.
+
 ## How to Actually Decide
 
 Consider your call complexity (routine vs. frequently unusual), your budget, how much a human voice specifically matters to your customer base, and your comfort level with newer AI technology handling customer-facing calls. There's no wrong answer here as long as the choice is deliberate rather than default — see [Choosing an Answering Service](/choosing-an-answering-service/) for questions to ask any provider, live-agent or AI, before committing.

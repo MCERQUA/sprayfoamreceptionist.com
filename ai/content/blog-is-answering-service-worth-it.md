@@ -32,6 +32,10 @@ A few patterns tend to point toward "yes, this is likely worth it": you're missi
 
 The opposite patterns are worth taking seriously too. If your call volume is genuinely low (a handful of calls a week), a full paid answering service's monthly minimum may cost more than the revenue at risk — a lighter option like missed-call text-back (see our [guide](/missed-call-text-back/)) may close most of the gap at a fraction of the cost. If you're already answering most calls reasonably promptly and the problem is more about occasional busy stretches than a chronic pattern, the fix might be smaller than a full-time service — even something as simple as designating whoever's least busy that day to handle incoming calls.
 
+## A Simple Test You Can Run This Week
+
+If you want a quick, low-effort way to get a directional answer before committing to a full analysis, try this for one representative week: keep a simple note (a sticky note, a phone notes app, whatever's easiest) every time a call goes to voicemail or rings out unanswered, along with a rough guess at what that call might have been about if you can tell from any voicemail left. At the end of the week, look at the count and ask yourself honestly how many of those, if answered promptly, would likely have turned into a booked job. Even this rough exercise tends to give contractors a much clearer, more visceral sense of the problem than an abstract "yes I probably miss some calls" assumption.
+
 ## The Real Risk of Waiting Too Long to Decide
 
 The cost of doing nothing isn't zero — it's just invisible, which is exactly what makes it easy to underestimate or ignore. A contractor who never runs this math at all is effectively deciding, by default, that the current level of missed calls is acceptable, without ever actually confirming that's true. Running the numbers, even roughly, at least turns that into a deliberate decision instead of an accidental one.
