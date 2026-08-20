@@ -1,0 +1,113 @@
+BUILD STATUS — sprayfoamreceptionist.com
+Built: 2026-08-20 by batch3-audit (josh-desk-3@mesh)
+Classification: TRADE-SERVICE-ADJACENT B2B LEAD-GEN/EDUCATIONAL RESOURCE (NOT insurance) —
+"Spray Foam Receptionist," an educational resource for spray foam insulation contractors on
+missed calls and call-handling gaps. NOT Contractors Choice Agency branded — CCA's canonical
+phone/email/address are reused only as the contact channel for the assessment CTA.
+
+CRITICAL FRAMING DECISION (this build's central judgment call): the real "answering service for
+contractors" market carries extreme CPC ($100-330+, highest of any keyword set researched this
+session) and is dominated entirely by actual operating companies — live-agent call centers
+(AnswerPro, AnswerHero, Posh, ReceptionHQ, Smith.ai, MAP Communications) and AI voice-answering
+startups (Dapta.ai, Whippy.ai, Bland.ai, Retell AI, Insighto.ai). CCA does not operate a call
+center, does not have live agents, and does not have an AI answering platform. Building a literal
+sales page with fake pricing tiers and a signup flow for a phone-answering product that doesn't
+exist would be dishonest and could cause real harm (a contractor believing they're purchasing
+live phone coverage that was never real) — exactly the failure mode the task explicitly warned
+against. DECISION: built as an honest educational resource + buyer's guide, with a consultative
+"Get Your Free Call Coverage Assessment" CTA framed explicitly as a real conversation, not a
+purchase flow. Verified via grep that no fabricated pricing tiers, fake testimonials, "trusted by
+X contractors" claims, or language implying CCA itself answers calls made it into the site —
+every mention of market pricing is framed as general information about third-party providers.
+Terms of Use explicitly states this Site is not an answering service or telecommunications
+provider. This mirrors the successful non-insurance-clone pattern from
+subcontractorindemnityagreement.com earlier this session, applied to a B2B SaaS/service category
+instead of an insurance-adjacent one.
+
+REAL-BUSINESS-NAME CHECK (standing practice): searched "spray foam receptionist" and the exact
+phrase before starting — no real business operates under this name (results were unrelated job
+listings and an unrelated phone-lookup page). Cleared to proceed.
+
+BUILD RESULT: SUCCESS (next build exit code 0, clean on first try — 5th clean first-try build in
+a row this session)
+Framework: Next.js 15.3.9, App Router, output: 'export' (static export), trailingSlash: true
+Package manager: pnpm (pnpm-lock.yaml only, no package-lock.json — verified clean)
+.gitignore written first. pnpm-workspace.yaml uses `packages: ["."]` correctly.
+
+RESEARCH (DataForSEO, direct API — shared proxy at 172.25.0.1:6350 still unreachable): full
+keyword/CPC/competitor detail in ai/research/keywords.json and competitors.md. Key data points:
+"answering service for plumbers" $330.75 CPC (highest CPC found this session by a wide margin),
+"answering service for contractors" $216.24 CPC (210/mo), "live answering service" $203.33 CPC.
+None of the real competitors narrow specifically to spray foam — the site's genuine differentiator
+is spray-foam-specific call-handling content (same-day weather-sensitive urgency, crews physically
+unreachable mid-application, open-cell/closed-cell questions, warranty-vs-new-lead routing) that
+no generic contractor-answering-service competitor addresses.
+
+STITCH DESIGN — MANDATORY step completed, zero quota issues, 5th clean build in a row. This time
+the fork ran a genuinely thorough scrim check across ALL 4 files (not just home, per the explicit
+instruction after the prior build's partial-scan gap) and found + fixed 2 weak decorative
+card-hover overlays proactively — the pre-deploy gate passed clean on the FIRST try as a result,
+no manual fix iterations needed (unlike the immediately prior build, which took 3 iterations).
+Project: projects/6534919299076701085 ("Spray Foam Receptionist")
+Design system: assets/14669292777162733866 ("Spray Foam Receptionist Warm Amber", LIGHT mode)
+4 screens: home.html, cost-of-missed-calls.html, choosing-an-answering-service.html,
+get-assessment.html — all in .stitch-pages/, confirmed nonzero size, content-verified to contain
+no pricing tiers/checkout flow/fake testimonials. Font gotcha (5th occurrence this session):
+LIBRE_FRANKLIN/SOURCE_SANS_PRO rejected by the Stitch API enum — mockups render with
+SPACE_GROTESK/WORK_SANS; the real coded build correctly applies Libre Franklin/Source Sans 3 via
+next/font/google.
+
+DESIGN SYSTEM: warm earth tones, hue-verified — signal-amber #C77C2E (primary), moss green
+#5C6B4A (secondary), terracotta #A24E32 (accent), warm cream #F7F0E3 (base bg), warm charcoal
+#26201A (inverted band). Fifth genuinely distinct palette this session, and the first with a
+sans-serif headline (Libre Franklin + Source Sans 3) rather than a serif/slab, matching this
+site's slightly more modern "tech-service" register versus the trade/craft sites. Motif:
+communication/coverage — phone, message, clock, headset iconography. Imagery deliberately avoids
+generic call-center stock photos in favor of the CONTRACTOR's side of the problem (a phone
+ringing unanswered on a truck dashboard, a crew member mid-application in an attic).
+
+SITE STRUCTURE: 6 guide pages (Cost of Missed Calls, Answering Service vs. AI vs. Voicemail,
+After-Hours & Weekend Calls, Missed Call Text-Back, Choosing an Answering Service, Spray Foam
+Call Handling) instead of generic service pages — no service-areas page (this is a B2B content
+resource, not geographically bound). LocalBusiness/Organization + FAQPage + BreadcrumbList +
+Article JSON-LD.
+
+ROUTES (19 static index.html routes generated, plus robots.txt/sitemap.xml/icon.svg):
+  /
+  /about/, /contact/, /get-assessment/, /faq/, /blog/
+  Guide pages (6, dynamic [slug] route via generateStaticParams):
+    /cost-of-missed-calls/, /answering-service-vs-ai-vs-voicemail/,
+    /after-hours-and-weekend-calls/, /missed-call-text-back/,
+    /choosing-an-answering-service/, /spray-foam-call-handling/
+  Blog posts (4):
+    /blog/how-much-does-answering-service-cost/, /blog/is-answering-service-worth-it/,
+    /blog/real-cost-of-missed-call/, /blog/live-agents-vs-ai-answering/
+  /privacy/, /terms/
+
+WORD COUNTS — TARGET MET (3rd build in a row hitting targets on the self-checking discipline):
+17 source files, 13,199 words total, all hit target range (terms.md 470 words vs. 350-450 target
+ceiling, 20 words over — negligible). Homepage 1,275 (target 1100-1400) | 6 guide pages 754-909
+each (target 700-1100) | about 692 (target 600-800) | contact 251 (target 250-350) |
+get-assessment 556 (target 500-700) | faq 764 (target 700-900) | privacy 356 (target 350-450) |
+4 blog posts 931-993 each (target 900-1300). No fabricated testimonials, stats, pricing, or names.
+
+IMAGES: 10/10 generated successfully (stabilityai/stable-diffusion-3-medium-diffusers on
+hf-inference, zero retries — 5th consecutive build on this model), 1.4MB total, all wired
+(including 1 initially-orphaned image — missed-call-truck.jpg — now placed on the homepage).
+Deliberately shows the contractor's side of the missed-call problem, not generic call-center
+stock photography, per directive.
+
+FORMS: 2 Netlify-ready forms (contact, get-assessment), both with data-netlify + honeypot +
+hidden traffic_source/landing_url AEO capture fields + declared in public/__forms.html decoy.
+netlify.toml has direct submission_created webhook `url =` for both forms.
+
+GATE: bash pre-deploy-content-check.sh sprayfoamreceptionist.com <dir> → PASS (exit 0), FIRST
+TRY, no fixes needed — content own-keyword hits: 20 | palette: no banned hues | scrim: no
+decaying scrim found | stitch: 4 screens across 10 routes | pnpm-workspace packages check:
+passed | no git remote yet (not pushed).
+
+GIT: own local repo (not yet pushed — build + commit only, no GitHub auth in this container).
+node_modules/.next/out/package-lock.json gitignored and confirmed untracked. pnpm-lock.yaml
+commits next@15.3.9 pinned exactly.
+
+NOT DONE (explicitly out of scope per task): no GitHub repo push, no Netlify deploy.
