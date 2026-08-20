@@ -1,0 +1,32 @@
+{
+  "source": "DataForSEO (direct API, 2026-08-20) — proxy at 172.25.0.1:6350 still unreachable, called api.dataforseo.com directly",
+  "real_business_check": "Per standing practice: searched 'spray foam receptionist' and the exact phrase. No real business operates under this name — results are unrelated job listings (a spray foam company hiring a receptionist), a random Facebook mention, and an unrelated phone-lookup page. Confirmed low collision risk, matches the domain's generic-concept naming pattern. Cleared to proceed.",
+  "framing_decision": "CRITICAL: 'answering service for contractors' / 'virtual receptionist service' / 'live answering service' carry EXTREMELY HIGH commercial CPC ($100-330+) and are dominated in the real SERP by actual operating answering-service companies with live agents or AI platforms (AnswerPro, AnswerHero, Posh, ReceptionHQ, Smith.ai, MAP Communications, plus newer AI-answering startups: Dapta.ai, Whippy.ai, Bland.ai, Retell AI, Insighto.ai). CCA does not operate a staffed call center or AI answering platform. Building a literal sales page with fake pricing tiers/signup flow for a phone-answering service that doesn't actually exist would be dishonest and could cause real harm (a contractor signs up expecting live phone coverage that was never real). DECISION: build this as an educational resource + consultative lead-gen site — real, useful buyer's-guide content on the missed-call problem specifically for spray foam contractors, with a soft 'get matched / talk to us about your call coverage' CTA rather than a hard product-purchase flow. This mirrors the successful non-insurance-clone pattern already used on subcontractorindemnityagreement.com earlier this session.",
+  "keywords": [
+    {"keyword": "virtual receptionist service", "search_volume": 1900, "cpc": 115.57, "competition": "LOW", "use": "background — extremely high CPC confirms real commercial value in the category, informs homepage framing"},
+    {"keyword": "after hours answering service", "search_volume": 1300, "cpc": 110.09, "competition": "LOW", "use": "cluster page — after-hours/weekend call problem"},
+    {"keyword": "24/7 answering service", "search_volume": 1000, "cpc": 101.61, "competition": "LOW", "use": "homepage secondary keyword"},
+    {"keyword": "live answering service", "search_volume": 720, "cpc": 203.33, "competition": "LOW", "use": "comparison/buyer's-guide cluster page — live agent vs AI vs voicemail"},
+    {"keyword": "best answering service for small business", "search_volume": 880, "cpc": 142.87, "competition": "LOW", "use": "buyer's checklist cluster page"},
+    {"keyword": "answering service for plumbers", "search_volume": 480, "cpc": 330.75, "competition": "LOW", "use": "background — highest CPC found this session by a wide margin, confirms trade-specific answering-service framing is a proven high-value pattern (adapted here to spray foam specifically)"},
+    {"keyword": "answering service pricing", "search_volume": 260, "cpc": 76.03, "competition": "MEDIUM", "use": "FAQ + cost-education content — answered honestly as general market pricing info, not a CCA price list"},
+    {"keyword": "answering service for contractors", "search_volume": 210, "cpc": 216.24, "competition": "LOW", "use": "primary homepage keyword family"},
+    {"keyword": "contractor answering service", "search_volume": 210, "cpc": 216.24, "competition": "LOW", "use": "primary homepage keyword family"},
+    {"keyword": "call answering service for small business", "search_volume": 210, "cpc": 150.07, "competition": "MEDIUM", "use": "homepage secondary"},
+    {"keyword": "how much does an answering service cost", "search_volume": 210, "cpc": 68.41, "competition": "MEDIUM", "use": "blog cost-guide post, PAA-driven"},
+    {"keyword": "phone answering service cost", "search_volume": 140, "cpc": 91.08, "competition": "LOW", "use": "blog cost-guide post"},
+    {"keyword": "call center for contractors", "search_volume": 30, "cpc": null, "competition": "LOW", "use": "background"},
+    {"keyword": "virtual receptionist for contractors", "search_volume": 10, "cpc": 92.66, "competition": "LOW", "use": "homepage secondary"},
+    {"keyword": "spray foam insulation leads", "search_volume": 10, "cpc": null, "competition": "HIGH", "use": "spray-foam-specific framing anchor, low volume but exact-niche relevance"},
+    {"keyword": "missed call text back service", "search_volume": null, "cpc": null, "competition": null, "use": "cluster page — text-back automation as a lower-cost partial solution"},
+    {"keyword": "cost of a missed call", "search_volume": null, "cpc": null, "competition": null, "use": "homepage/cluster page — the core problem-framing angle"},
+    {"keyword": "answering service vs virtual assistant", "search_volume": null, "cpc": null, "competition": null, "use": "comparison cluster page background"}
+  ],
+  "people_also_ask": [
+    "How much does an answering service charge?",
+    "How to get a contractor to respond?",
+    "How much does an answering dispatch service cost per hour?",
+    "Is an answering service worth it?",
+    "How much does Ruby answering service cost?"
+  ]
+}
