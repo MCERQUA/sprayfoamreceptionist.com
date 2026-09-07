@@ -124,6 +124,106 @@ export default function AssessmentForm() {
         </select>
       </div>
 
+      <div>
+        <label htmlFor="ga-street_address" className="block text-sm font-medium text-ink mb-1">Business address *</label>
+        <input
+          id="ga-street_address"
+          name="street_address"
+          type="text"
+          autoComplete="address-line1"
+          required
+          className="w-full rounded-lg bg-paper border border-ink/15 px-4 py-2.5 text-ink placeholder-inkSoft/50 focus:outline-none focus:border-amber"
+        />
+      </div>
+      <div>
+        <label htmlFor="ga-city" className="block text-sm font-medium text-ink mb-1">City *</label>
+        <input
+          id="ga-city"
+          name="city"
+          type="text"
+          autoComplete="address-level2"
+          required
+          className="w-full rounded-lg bg-paper border border-ink/15 px-4 py-2.5 text-ink placeholder-inkSoft/50 focus:outline-none focus:border-amber"
+        />
+      </div>
+      <div>
+        <label htmlFor="ga-state" className="block text-sm font-medium text-ink mb-1">State *</label>
+        <select
+          id="ga-state"
+          name="state"
+          required
+          className="w-full rounded-lg bg-paper border border-ink/15 px-4 py-2.5 text-ink focus:outline-none focus:border-amber"
+          defaultValue=""
+        >
+          <option value="">Select a state</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+      </div>
+      <div>
+        <label htmlFor="ga-zip" className="block text-sm font-medium text-ink mb-1">ZIP code *</label>
+        <input
+          id="ga-zip"
+          name="zip"
+          type="text"
+          autoComplete="postal-code"
+          inputMode="numeric"
+          pattern="[0-9]{5}(-[0-9]{4})?"
+          maxLength={10}
+          required
+          className="w-full rounded-lg bg-paper border border-ink/15 px-4 py-2.5 text-ink placeholder-inkSoft/50 focus:outline-none focus:border-amber"
+        />
+      </div>
+
       {status === "error" && (
         <p className="text-sm text-terracotta">
           Something went wrong. Please call{" "}
