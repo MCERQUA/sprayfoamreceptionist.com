@@ -21,6 +21,7 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
+  alternates: { canonical: "/" },
   title: {
     default: "Why Spray Foam Contractors Can't Afford to Miss a Call",
     template: "%s",
