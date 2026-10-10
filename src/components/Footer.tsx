@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-paper/10 py-6 px-4 text-center text-xs text-paper/50">
-        © {new Date().getFullYear()} {SITE.name}. All rights reserved. Educational resource — not an answering service or telecommunications provider.
+        © {new Date().getFullYear()} {SITE.name} · A Contractors Choice Agency company. All rights reserved. Educational resource — not an answering service or telecommunications provider.
       </div>
     </footer>
   );
