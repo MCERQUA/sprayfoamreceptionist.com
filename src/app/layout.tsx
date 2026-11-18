@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Libre_Franklin, Source_Sans_3 } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,16 +7,24 @@ import JsonLd from "@/components/JsonLd";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 
-const libreFranklin = Libre_Franklin({
-  subsets: ["latin"],
+const libreFranklin = localFont({
+  src: [
+    { path: "./fonts/LibreFranklin-variable.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/LibreFranklin-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/LibreFranklin-variable.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/LibreFranklin-variable.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-head",
-  weight: ["500", "600", "700", "800"],
 });
 
-const sourceSans = Source_Sans_3({
-  subsets: ["latin"],
+const sourceSans = localFont({
+  src: [
+    { path: "./fonts/SourceSans3-variable.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/SourceSans3-variable.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/SourceSans3-variable.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/SourceSans3-variable.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

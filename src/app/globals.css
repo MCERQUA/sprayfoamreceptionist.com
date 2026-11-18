@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --font-head: "Libre Franklin", sans-serif;
-  --font-body: "Source Sans 3", sans-serif;
+  --font-head: "libreFranklin", sans-serif;
+  --font-body: "sourceSans", sans-serif;
 }
 
 html {
